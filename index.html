@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franchistérique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0e8f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styles pour le header et la navigation */
+        header {
+            background-color: #417ebc;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Styles pour le contenu principal */
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .video-section {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .video-frame {
+            width: 100%;
+            height: 200px;
+            background-color: #000;
+            margin-bottom: 10px;
+            border: 4px solid #d87093;
+        }
+
+        .video-title {
+            font-weight: bold;
+            font-size: 18px;
+            color: #417ebc;
+        }
+
+        .video-description {
+            color: #2e3a4a;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        /* Style pour les éléments décoratifs */
+        .decorative-star {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            color: #ff99cc;
+            /* Personnaliser pour la position */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Franchistérique
+    </header>
+
+    <nav>
+        <a href="#about">About me</a>
+        <a href="#audiovisuals">Audiovisuals</a>
+        <a href="#photography">Photography</a>
+        <a href="#graphism">Graphism</a>
+    </nav>
+
+    <div class="content">
+
+        <div class="video-section">
+                <iframe class="video-frame" src="https://www.youtube.com/watch?v=l3l9r2Dt_bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="video-title">Aftermovie Week-End de Bienvenue, BDE Holly'good</div>
+                <div class="video-description">
+                    Co-écriture avec Marceau Thevenin<br>
+                    Images et montage par Franchistérique
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="video-section">
+            <div class="video-frame">Vidéo Franchi au Brésil</div>
+            <div class="video-title">Franchi au Brésil - épisode 1</div>
+            <div class="video-description">
+                Vlog de mon stage au Brésil<br>
+                Franchistérique, YouTube
+            </div>
+        </div>
+
+        <div class="video-section">
+            <div class="video-frame">Vidéo Les Totally Lyonnaises</div>
+            <div class="video-title">Les Totally Lyonnaises</div>
+            <div class="video-description">
+                Challenge vidéo lancé par l'ISCOM<br>
+                L'objectif : attirer les jeunes adultes à venir s’installer à Lyon
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
